@@ -3,6 +3,7 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import BottomNav from "@/components/BottomNav";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -27,11 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable} dark antialiased`}>
-      <body className="bg-primary min-h-screen text-slate-100 pb-20 md:pb-0">
+      <body className="bg-primary min-h-screen text-slate-100">
         <Navbar />
-        <main className="max-w-7xl mx-auto w-full">
+        <main className="min-h-[70vh]">
           {children}
         </main>
+        <Footer />
         <BottomNav />
       </body>
     </html>
