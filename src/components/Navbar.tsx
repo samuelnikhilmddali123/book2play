@@ -29,7 +29,7 @@ export default function Navbar() {
 
         {/* Right Actions */}
         <div className="flex items-center gap-4">
-          <button className="bg-accent hover:bg-accent-hover text-black px-6 py-2 rounded-full text-xs font-black tracking-widest transition-all shadow-lg shadow-accent/10">
+          <button className="btn-gradient px-6 py-2 rounded-full text-xs tracking-widest shadow-lg shadow-lime-500/10">
             SIGN IN
           </button>
           

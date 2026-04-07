@@ -73,6 +73,18 @@ h1, h2, h3, h4, h5, h6 {
   scrollbar-width: none;  /* Firefox */
 }
 
+.btn-gradient {
+  background: linear-gradient(135deg, #a3e635 0%, #fde047 100%);
+  color: #000000;
+  font-weight: 900;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
 .text-gradient {
   background: linear-gradient(to right, #22c55e, #10b981);
   -webkit-background-clip: text;

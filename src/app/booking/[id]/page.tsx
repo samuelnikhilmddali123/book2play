@@ -149,11 +149,11 @@ function BookingContent() {
 
               <button 
                 onClick={() => alert('Booking Initiated!')}
-                className="w-full bg-accent hover:bg-accent-hover text-primary py-5 rounded-2xl font-black uppercase text-sm tracking-widest shadow-lg shadow-accent/20 transition-all hover:scale-[1.02] active:scale-95 flex items-center justify-center gap-3 group mt-4"
+                className="w-full btn-gradient py-5 rounded-2xl text-sm tracking-widest shadow-lg shadow-lime-500/20 flex items-center justify-center gap-3 mt-4 mt-4"
               >
                 <CreditCard size={20} />
                 CONFIRM & PAY
-                <Zap size={16} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                <Zap size={16} />
               </button>
            </div>
         </div>

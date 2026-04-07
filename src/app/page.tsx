@@ -45,7 +45,7 @@ export default function Home() {
                    <p className="text-2xl font-black text-accent mt-1">{offer.discount}</p>
                    <p className="text-[10px] font-bold text-slate-400 mt-1 uppercase">{offer.sub}</p>
                 </div>
-                <button className="w-fit bg-black/40 backdrop-blur-md border border-white/10 text-[10px] font-black text-white px-4 py-1.5 rounded-lg hover:bg-white/10 transition-all uppercase tracking-widest">
+                <button className="w-fit btn-gradient text-[10px] px-4 py-1.5 rounded-lg uppercase tracking-widest">
                   BOOK NOW
                 </button>
               </div>
@@ -150,7 +150,7 @@ export default function Home() {
               <div className="hidden md:flex border-2 border-dashed border-accent/40 rounded-lg px-4 py-2">
                  <span className="text-accent font-black text-sm tracking-widest uppercase">PLAY20</span>
               </div>
-              <button className="bg-accent hover:bg-accent-hover text-black px-6 py-2 md:py-3 rounded-full text-xs font-black uppercase tracking-widest shadow-lg shadow-accent/20 transition-all active:scale-95">
+              <button className="btn-gradient px-6 py-2 md:py-3 rounded-full text-xs uppercase tracking-widest shadow-lg shadow-lime-500/20">
                  CLAIM OFFER
               </button>
            </div>

@@ -63,7 +63,7 @@ export default function GroundCard({ id, name, sport, rating, reviewCount = 120,
         <div className="mt-3 flex items-center gap-2">
           <Link 
             href={`/grounds/${id}`}
-            className="flex-grow bg-accent hover:bg-accent-hover text-black py-2 rounded-lg text-[10px] font-black tracking-widest uppercase transition-all text-center"
+            className="btn-gradient flex-grow py-2 rounded-lg text-[10px] tracking-widest uppercase text-center"
           >
             BOOK NOW
           </Link>

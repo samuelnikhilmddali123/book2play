@@ -155,7 +155,7 @@ export default function SportsListingPage({ sportType }: SportsListingPageProps)
 
                     <Link 
                       href={`/booking/${ground.id}`}
-                      className="w-full sm:w-auto bg-[#22C55E] hover:brightness-110 text-white px-6 py-2.5 rounded-lg text-sm font-black shadow-lg shadow-[#22C55E]/10 transition-all uppercase tracking-widest text-center mt-4 sm:mt-0"
+                      className="btn-gradient w-full sm:w-auto px-6 py-2.5 rounded-lg text-sm shadow-lg shadow-lime-500/10 uppercase tracking-widest text-center mt-4 sm:mt-0"
                     >
                       Book Now
                     </Link>
