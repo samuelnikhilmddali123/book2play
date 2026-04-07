@@ -15,11 +15,11 @@ export default function Navbar() {
         </Link>
         
         {/* Center Links */}
-        <div className="hidden lg:flex items-center gap-10">
-          {['CRICKET', 'VOLLEYBALL', 'FOOTBALL', 'BADMINTON'].map((item) => (
+        <div className="hidden lg:flex items-center gap-8">
+          {['CRICKET', 'VOLLEYBALL', 'FOOTBALL', 'BADMINTON', 'TENNIS', 'BASKETBALL'].map((item) => (
             <Link 
               key={item} 
-              href={`/grounds?sport=${item.toLowerCase()}`}
+              href={`/${item.toLowerCase()}`}
               className="text-slate-300 hover:text-white text-xs font-black tracking-widest transition-colors"
             >
               {item}
